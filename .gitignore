@@ -38,3 +38,4 @@ src/BookStore.Domain/obj/Debug/net8.0/BookStore.Domain.AssemblyInfo.cs
 .vs/BookStore/FileContentIndex/ae10a6e6-36ba-48b5-99ca-27a8697c6019.vsidx
 .vs/BookStore/FileContentIndex/1b197e31-0f5c-4a28-a9e8-96491c79fc16.vsidx
 .vs/BookStore/DesignTimeBuild/.dtbcache.v2
+*.vsidx
