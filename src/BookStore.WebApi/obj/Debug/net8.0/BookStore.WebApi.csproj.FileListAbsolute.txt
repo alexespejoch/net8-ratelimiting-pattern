@@ -283,3 +283,4 @@ D:\OneDrive\Articulos\net8-ratelimiting-pattern\src\BookStore.WebApi\obj\Debug\n
 D:\OneDrive\Articulos\net8-ratelimiting-pattern\src\BookStore.WebApi\obj\Debug\net8.0\BookStore.WebApi.pdb
 D:\OneDrive\Articulos\net8-ratelimiting-pattern\src\BookStore.WebApi\obj\Debug\net8.0\BookStore.WebApi.genruntimeconfig.cache
 D:\OneDrive\Articulos\net8-ratelimiting-pattern\src\BookStore.WebApi\obj\Debug\net8.0\ref\BookStore.WebApi.dll
+D:\OneDrive\Articulos\net8-ratelimiting-pattern\src\BookStore.WebApi\obj\Debug\net8.0\BookStore.WebApi.sourcelink.json

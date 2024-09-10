@@ -1,4 +1,5 @@
-using BookStore.WebApi.Configuration;
+using Microsoft.AspNetCore.RateLimiting;
+using System.Threading.RateLimiting;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,7 +18,29 @@ builder.Services.AddSwaggerGen(opts =>
 
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.RegisterInfrastureDependencies(builder.Configuration);
-builder.Services.RegisterPresentationDependencies();
+
+var fixedWindowPolicy = "fixedWindow";
+builder.Services.AddRateLimiter(configureOptions => {
+    configureOptions.AddFixedWindowLimiter(policyName: fixedWindowPolicy, options =>
+    {
+        options.PermitLimit = 4;
+        options.Window = TimeSpan.FromSeconds(30);
+        options.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+        options.QueueLimit = 0;
+    });
+    configureOptions.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+});
+
+var concurrencyPolicy = "Concurrency";
+builder.Services.AddRateLimiter(configureOptions =>
+{
+    configureOptions.AddConcurrencyLimiter(policyName: concurrencyPolicy, options =>
+    {
+        options.PermitLimit = 2;
+        options.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+        options.QueueLimit = 0;
+    });
+});
 
 var app = builder.Build();
 

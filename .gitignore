@@ -39,3 +39,11 @@ src/BookStore.Domain/obj/Debug/net8.0/BookStore.Domain.AssemblyInfo.cs
 .vs/BookStore/FileContentIndex/1b197e31-0f5c-4a28-a9e8-96491c79fc16.vsidx
 .vs/BookStore/DesignTimeBuild/.dtbcache.v2
 *.vsidx
+*.dll
+*.pdb
+*.exe
+*.dll
+*.txt
+*.json
+*.txt
+*.pdb

@@ -33,3 +33,4 @@ D:\OneDrive\Articulos\net8-ratelimiting-pattern\src\BookStore.Infrastructure\obj
 D:\OneDrive\Articulos\net8-ratelimiting-pattern\src\BookStore.Infrastructure\obj\Debug\net8.0\BookStore.Infrastructure.pdb
 D:\OneDrive\Articulos\net8-ratelimiting-pattern\src\BookStore.Infrastructure\obj\Debug\net8.0\BookStore.Infrastructure.genruntimeconfig.cache
 D:\OneDrive\Articulos\net8-ratelimiting-pattern\src\BookStore.Infrastructure\obj\Debug\net8.0\ref\BookStore.Infrastructure.dll
+D:\OneDrive\Articulos\net8-ratelimiting-pattern\src\BookStore.Infrastructure\obj\Debug\net8.0\BookStore.Infrastructure.sourcelink.json

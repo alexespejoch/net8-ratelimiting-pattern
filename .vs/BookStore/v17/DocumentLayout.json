@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\OneDrive\\Articulos\\net8-ratelimiting-pattern\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05647CBB-2581-40D4-837F-98C3180CA2C4}|src\\BookStore.WebApi\\BookStore.WebApi.csproj|d:\\onedrive\\articulos\\net8-ratelimiting-pattern\\src\\bookstore.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05647CBB-2581-40D4-837F-98C3180CA2C4}|src\\BookStore.WebApi\\BookStore.WebApi.csproj|solutionrelative:src\\bookstore.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05647CBB-2581-40D4-837F-98C3180CA2C4}|src\\BookStore.WebApi\\BookStore.WebApi.csproj|d:\\onedrive\\articulos\\net8-ratelimiting-pattern\\src\\bookstore.webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05647CBB-2581-40D4-837F-98C3180CA2C4}|src\\BookStore.WebApi\\BookStore.WebApi.csproj|solutionrelative:src\\bookstore.webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\OneDrive\\Articulos\\net8-ratelimiting-pattern\\src\\BookStore.WebApi\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "src\\BookStore.WebApi\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\OneDrive\\Articulos\\net8-ratelimiting-pattern\\src\\BookStore.WebApi\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "src\\BookStore.WebApi\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T02:49:25.694Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -42,6 +64,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\OneDrive\\Articulos\\net8-ratelimiting-pattern\\src\\BookStore.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\BookStore.WebApi\\Program.cs",
+              "ToolTip": "D:\\OneDrive\\Articulos\\net8-ratelimiting-pattern\\src\\BookStore.WebApi\\Program.cs",
+              "RelativeToolTip": "src\\BookStore.WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T02:49:26.526Z",
+              "EditorCaption": ""
             }
           ]
         },
